@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Test Action Creators  Action Creator: addComment success action returns data passed 1`] = `
+Object {
+  "payload": "I am a comment",
+  "type": "ADD_COMMENT_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: articleVote success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "ARTICLE_VOTE_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: commentVote success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "COMMENT_VOTE_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: deleteComment success action returns data passed 1`] = `
+Object {
+  "commentId": "I am a comment",
+  "payload": undefined,
+  "type": "DELETE_COMMENT_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchArticle success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_ARTICLE_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchArticleComments success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_ARTICLE_COMMENTS_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchArticles success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_ARTICLES_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchTopicArticles success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_TOPIC_ARTICLES_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchTopics success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_TOPICS_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchUser success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_USER_SUCCESS",
+}
+`;
+
+exports[`Test Action Creators  Action Creator: fetchUsers success action returns data passed 1`] = `
+Object {
+  "payload": Array [
+    "foo",
+    "bar",
+    "baz",
+  ],
+  "type": "FETCH_USERS_SUCCESS",
+}
+`;
