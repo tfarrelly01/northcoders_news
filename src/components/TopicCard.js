@@ -7,7 +7,7 @@ const TopicCard = props => (
     className="navbar-item button is-danger is-bold title is-4" 
     to={`/topics/${props.slug}/articles`}
   >
-    {props.title}
+    <div>{props.title}</div>
   </Link>
 );
 
