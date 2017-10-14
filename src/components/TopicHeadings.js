@@ -15,7 +15,7 @@ class TopicHeadings extends React.Component {
       <nav className="navbar is-danger is-bold">
         <div className="container">
           <div className="level-item">
-            <Link className="navbar-item button is-danger is-bold title is-3" to={'/'}>
+            <Link className="navbar-item button is-danger is-bold title is-5" to={'/'}>
               Home
             </Link>              
             {this.props.topics.sort((a,b) => a.title > b.title ? 1 : -1) 

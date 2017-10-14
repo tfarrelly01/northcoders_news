@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 
 const TopicCard = props => (
   <Link
-    className="navbar-item button is-danger is-bold title is-3" 
+    className="navbar-item button is-danger is-bold title is-5" 
     to={`/topics/${props.slug}/articles`}
   >
     {props.title}
