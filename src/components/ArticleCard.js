@@ -39,12 +39,12 @@ class ArticleCard extends React.Component {
 
           <div className="media-content">
             <div className="content">
-              <Link to={`/articles/${this.props.id}/comments`} className="title is-3">{this.props.title}</Link>
+              <Link to={`/articles/${this.props.id}/comments`} className="title is-4">{this.props.title}</Link>
             </div>
-            <h5 className="subtitle is-5">
+            <h5 className="subtitle is-6">
               Created by: <strong>{this.props.name}</strong>({this.props.createdBy})
             </h5>
-            <h5 className="subtitle is-5">Comments: {this.props.comments}</h5>
+            <h5 className="subtitle is-6">Comments: {this.props.comments}</h5>
           </div>
         </article>
       </div>

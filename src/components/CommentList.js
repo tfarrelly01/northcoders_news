@@ -74,9 +74,9 @@ class CommentList extends React.Component {
             <section>
               <div className="media-content">
                 <div className="content">
-                  <h1 className="title is-3"><b>{this.props.article.title}</b></h1>
+                  <h1 className="title is-4"><b>{this.props.article.title}</b></h1>
                 </div>
-                <h5 className="subtitle is-5">
+                <h5 className="subtitle is-6">
                   Created by <strong>{this.props.user.name}</strong> ({this.props.article.created_by})
                 </h5>
                 <div className="content is-medium">
