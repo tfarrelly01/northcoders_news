@@ -8,11 +8,13 @@ The core technologies used to develop Northcoders News are as follows:
 4. Bulma
 5. webpack
 
+The application has been deployed onto Heroku which you can run via the following <a href="https://nc-afline-news.herokuapp.com/">link</a>
+
 This repo contains the front-end source code for the project. The repo makes use of an API that is available to run from the following <a href="https://afline-news-api.herokuapp.com/">link</a>
 
-The repo containing the source code for the API is also available from the following<a href="https://github.com/tfarrelly01/AFLine-news-api">link</a>.
+The repo containing the source code for the API is also available from the following <a href="https://github.com/tfarrelly01/AFLine-news-api">link</a>.
 
-## Installation Instructions (on your local machine)
+## Installation Instructions (if you wish to install on your local machine)
 
 You will need to install Node.js at version 7.9.0 to run Northcoders News. 
 
@@ -24,13 +26,13 @@ Type the command below to check if you already have node installed:
 If node is already installed the output of the command will display the version (e.g. v7.9.0). If you need to install node please follow link (http://nodejs.org/en/).
 
 ### Install Northcoders News
-Please clone the repository https://github.com/tfarrelly01/NorthcodersNews.git
+Please clone the repository https://github.com/tfarrelly01/northcoders_news.git
 
-`$ git clone https://github.com/tfarrelly01/NorthcodersNews.git`
+`$ git clone https://github.com/tfarrelly01/northcoders_news.git`
 
 To install all dependencies please enter the following commands into the terminal:-
 
-`$ cd NorthcodersNews`
+`$ cd northcoders_news`
 `$ npm install`
 
 Open an additional terminal window and type the following command to run the application
