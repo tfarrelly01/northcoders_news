@@ -44,11 +44,11 @@ class CommentCard extends React.Component {
     if (!this.state.displayMessage) {
       contentToRender = (
         <div>
-          <h6 className="subtitle is-5">
+          <h6 className="subtitle is-6">
             By <strong>{this.props.name}</strong> 
             ({this.props.createdBy}): <strong>{moment(this.props.createdAt).fromNow()}</strong>
           </h6>
-          <div className="content is-medium">
+          <div className="content is-small">
             <p>{this.props.body}</p>
           </div>
         </div>
