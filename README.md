@@ -8,11 +8,12 @@ The core technologies used to develop Northcoders News are as follows:
 4. Bulma
 5. webpack
 
-The application has been deployed onto Heroku which you can run via the following urln https://nc-afline-news.herokuapp.com/
+The application has been deployed onto Heroku which you can run via the following url: https://nc-afline-news.herokuapp.com/
 
-This repo contains the front-end source code for the project. The repo makes use of an API that is available from https://afline-news-api.herokuapp.com/
+This repo contains the front-end source code for the project. The repo makes use of an API that is available from:
+https://afline-news-api.herokuapp.com/
 
-The repo containing the source code for the API is also available from https://github.com/tfarrelly01/AFLine-news-api.
+The repo containing the source code for the API is also available from:  https://github.com/tfarrelly01/AFLine-news-api.
 
 ## Installation Instructions (if you wish to install on your local machine)
 
