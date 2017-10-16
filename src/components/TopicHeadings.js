@@ -18,7 +18,7 @@ class TopicHeadings extends React.Component {
             <Link className="navbar-item button is-danger is-bold title is-5" to={'/'}>
               Home
             </Link>              
-            {this.props.topics.sort((a,b) => a.title > b.title ? 1 : -1) 
+            {this.props.topics.sort((a,b) => a.title < b.title ? -1 : a.title > b.title ? 1 : 0) 
               .map(topic => (
                 <TopicCard
                   key={topic._id}
